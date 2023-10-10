@@ -86,7 +86,7 @@ if (window.localStorage.status != pstatus || !window.localStorage.product) {
             },
             {
                 "id":10,
-                "image": "../img/book/KN18.jpg",
+                "image": "img/book/KN18.jpg",
                 "title": "Thao túng tâm lý",
                 "author": "Shannon Thomas",
                 "price": 43,
