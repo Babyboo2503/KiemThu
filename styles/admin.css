@@ -120,7 +120,7 @@ h3 {
     cursor: pointer;
 }
 .toggle:before {
-    content: url('../img/admin/menu-rounded.png');
+    content: url('img/admin/menu-rounded.png');
     position: absolute;
     width: 100%;
     height: 100%;
@@ -143,7 +143,7 @@ h3 {
 /*                                  Bao của nội dung trang                              */
 .main {
     position: absolute;
-    background-image: url('../img/admin/book-background.jpg');
+    background-image: url('img/admin/book-background.jpg');
     left: 220px;
     min-height: 100vh;
     right: 0;

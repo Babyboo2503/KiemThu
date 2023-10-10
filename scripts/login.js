@@ -48,7 +48,7 @@ function login(e){
     if (username == adminAcc.username && password == adminAcc.password) {
       var upateAdminStat = [true, adminAcc.name];
       localStorage.setItem('adminStatus', JSON.stringify(upateAdminStat));
-      window.location.href = '/admin.html';
+      window.location.href = 'admin.html';
       return;
     }
   }
@@ -56,7 +56,7 @@ function login(e){
     if(username == savedUser.username && password == savedUser.password){
         result.innerHTML = 'Đăng nhập thành công'
         localStorage.setItem('isloggedin',username)
-        window.location.href = '/index.html'
+        window.location.href = 'index.html'
       }
       else if((username != savedUser.username || password != savedUser.password)){
         result.innerHTML = "Sai tài khoản hoặc mật khẩu !"
